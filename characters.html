@@ -43,6 +43,15 @@
         margin: auto;
       }
 
+      .card-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 8; /* number of lines to show */
+        line-clamp: 8;
+        -webkit-box-orient: vertical;
+      }
+
       a.btn.btn-primary {
         position: absolute;
         padding: 10px;
